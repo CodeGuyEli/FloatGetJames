@@ -1,8 +1,8 @@
 #! /bin/bash
 
 i=0
-URL="https://www.floatplane.com/api/v3/content/creator?id=59f94c0bdd241b70349eb72b"
-EXPORT_PATH=/var/www/html/rss/ltt-fp.xml
+URL="https://www.floatplane.com/api/v3/content/creator?id=6548c71244c4c2831b1bdac7"
+EXPORT_PATH=/home/runner/work/FloatGetJames/FloatGetJames/james.xml
 
 curl -o json $URL 
 echo '<?xml version="1.0" encoding="utf-8"?>' > $EXPORT_PATH
